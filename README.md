@@ -16,7 +16,6 @@ class Solution {
   public:
     int rectanglesInCircle(int r) {
         int count=0, max=2*r;
-        
         for(int i=1; i<=max; ++i)
         
         {
