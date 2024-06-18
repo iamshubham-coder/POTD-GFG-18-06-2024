@@ -10,6 +10,8 @@ BASIC APPROACH
 
 3)Check if the rectangle fits: For each position, check if all corners of the rectangle lie within the circle.
 CODE OF THIS PROBLEM IS ATTACHED IN THE TEXT FILE 
+
+
 class Solution {
   public:
     int rectanglesInCircle(int r) {
