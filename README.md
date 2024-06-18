@@ -10,3 +10,20 @@ BASIC APPROACH
 
 3)Check if the rectangle fits: For each position, check if all corners of the rectangle lie within the circle.
 CODE OF THIS PROBLEM IS ATTACHED IN THE TEXT FILE 
+class Solution {
+  public:
+    int rectanglesInCircle(int r) {
+        int count=0, max=2*r;
+        
+        for(int i=1; i<=max; ++i)
+        
+        {
+            for(int j=1; j<=max; ++j)
+            {
+                if(i*i+j*j <= 4*r*r)
+                    count++;
+            }
+        }
+        return count;
+     }
+     };
